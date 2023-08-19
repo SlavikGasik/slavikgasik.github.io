@@ -1,0 +1,66 @@
+@import"./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+body {
+    font-family: 'Montserrat', serif;
+    padding-top: 60px;
+    padding-left: 60px;
+    line-height: normal;
+}
+/* ---------------------------start */
+.card {
+    width: 420px;
+    padding: 20px 40px 50px;
+    border: 1px solid #DBB9B9;
+    text-align: center;
+}
+.card-img {
+    margin-bottom: 30px;
+}
+.card-title {
+    color: #CD2626;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.card-text {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.card-text a {
+    color: #BD3030;
+    font-size: 14px;
+    text-decoration-line: underline;
+}
+.price {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.price span {
+    font-weight: 700;
+}
+
+.card-button {
+    padding: 16px 42px 17px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: #FFF;
+    background-color: #CD2626;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in, border 0.2s ease-in;
+    -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in, border 0.2s ease-in;
+    -moz-transition: background-color 0.2s ease-in, color 0.2s ease-in, border 0.2s ease-in;
+    -ms-transition: background-color 0.2s ease-in, color 0.2s ease-in, border 0.2s ease-in;
+    -o-transition: background-color 0.2s ease-in, color 0.2s ease-in, border 0.2s ease-in;
+}
+.card-button:hover, .card-button:focus {
+    background-color: #E41919;
+}
+.card-button:active {
+    position: relative;
+    top: 1px;
+    background-color: #8E1010;
+    color: #F1C9C9;
+}
